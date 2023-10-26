@@ -1,0 +1,285 @@
+===================
+Target
+===================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+wes.WEBAPP.clean:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+---
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (target)
+    (build_result
+        (build_success)
+        (build_time
+           (time_string))))
+
+===================
+Command
+===================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+     [echo] Cleaning WEBAPP
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+---
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (command
+        (command_type)
+        (description_string))
+    (build_result
+        (build_success)
+        (build_time
+           (time_string))))
+
+
+===================
+Target And Command
+===================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+wes.WEBAPP.clean:
+     [echo] Cleaning WEBAPP
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+---
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (target)
+    (command
+       (command_type)
+       (description_string))
+    (build_result
+        (build_success)
+        (build_time
+           (time_string))))
+
+===================
+Target then Target And Command
+===================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+clean-src:
+
+wes.WEBAPP.clean:
+     [echo] Cleaning WEBAPP
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+---
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (target)
+    (target)
+    (command
+        (command_type)
+        (description_string))
+    (build_result
+        (build_success)
+        (build_time
+           (time_string))))
+
+===================
+Target And Command then Target
+===================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+wes.WEBAPP.clean:
+     [echo] Cleaning WEBAPP
+
+wes.WEBAPP.clean:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+---
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (target)
+    (command
+        (command_type)
+        (description_string))
+    (target)
+    (build_result
+        (build_success)
+        (build_time
+           (time_string))))
+
+===================
+Two Targets 
+===================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+wes.WEBAPP.clean:
+
+clean-src:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+---
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (target)
+    (target)
+    (build_result
+        (build_success)
+        (build_time
+           (time_string))))
+
+===================
+Two Target And Commands
+===================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+wes.WEBAPP.clean:
+     [echo] Cleaning WEBAPP
+
+clean-src:
+     [echo] Cleaning WEBAPP
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+---
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (target)
+    (command
+        (command_type)
+        (description_string))
+    (target)
+    (command
+        (command_type)
+        (description_string))
+    (build_result
+        (build_success)
+        (build_time
+           (time_string))))
+
+
+===================
+Target And Two Commands
+===================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+wes.WEBAPP.clean:
+     [echo] Cleaning WEBAPP
+     [echo] Cleaning WEBAPP
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+---
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (target)
+    (command
+        (command_type)
+        (description_string))
+    (command
+        (command_type)
+        (description_string))
+    (build_result
+        (build_success)
+        (build_time
+           (time_string))))
+
+===================
+Target And Target And Two Commands
+===================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+wes.WEBAPP.clean:
+
+wes.WEBAPP.clean:
+     [echo] Cleaning WEBAPP
+     [echo] Cleaning WEBAPP
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+---
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (target)
+    (target)
+    (command
+        (command_type)
+        (description_string))
+    (command
+        (command_type)
+        (description_string))
+    (build_result
+        (build_success)
+        (build_time
+           (time_string))))
+
+===================
+Target And Two Commands and Target
+===================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+wes.WEBAPP.clean:
+     [echo] Cleaning WEBAPP
+     [echo] Cleaning WEBAPP
+
+wes.WEBAPP.clean:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+---
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (target)
+    (command
+        (command_type)
+        (description_string))
+    (command
+        (command_type)
+        (description_string))
+    (target)
+    (build_result
+        (build_success)
+        (build_time
+           (time_string))))

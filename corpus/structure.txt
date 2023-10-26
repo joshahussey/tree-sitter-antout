@@ -1,0 +1,63 @@
+==================
+Buildfile path
+==================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+---
+
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (build_result
+        (build_success)
+        (build_time
+           (time_string))))
+
+==================
+Build Success
+==================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+BUILD SUCCESSFUL
+Total time: 30 minutes 17 seconds
+---
+
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (build_result
+        (build_success)
+        (build_time
+           (time_string))))
+==================
+Build Failure
+==================
+Buildfile: /home/josh/Documents/WES/WebEnterpriseSuite/build.xml
+Trying to override old definition of javac
+
+BUILD FAILED
+/home/josh/Documents/WES/WebEnterpriseSuite/build.xml:1: The following error occurred while executing this line:
+/home/josh/Documents/WES/WebEnterpriseSuite/build.xml:1: The following error occurred while executing this line:
+
+Total time: 0 seconds
+---
+
+(source_file
+    (build_file
+        (build_file_word)
+        (file_path))
+    (comment)
+    (build_result
+        (build_failed
+            (failure_string)
+            (failure_string))
+        (build_time
+           (time_string))))

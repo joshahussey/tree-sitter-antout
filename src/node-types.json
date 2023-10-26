@@ -1,0 +1,232 @@
+[
+  {
+    "type": "build_failed",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "failure_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "build_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "build_file_word",
+          "named": true
+        },
+        {
+          "type": "file_path",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "build_result",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "build_failed",
+          "named": true
+        },
+        {
+          "type": "build_success",
+          "named": true
+        },
+        {
+          "type": "build_time",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "build_success",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "build_time",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "time_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "command",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "command_type",
+          "named": true
+        },
+        {
+          "type": "description_string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "command_type",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "comment",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "description_string",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "failure_string",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "file_path",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "build_file",
+          "named": true
+        },
+        {
+          "type": "build_result",
+          "named": true
+        },
+        {
+          "type": "command",
+          "named": true
+        },
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "target",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "target",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "time_string",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "\n",
+    "named": false
+  },
+  {
+    "type": "\n\n",
+    "named": false
+  },
+  {
+    "type": "BUILD FAILED",
+    "named": false
+  },
+  {
+    "type": "BUILD SUCCESSFUL",
+    "named": false
+  },
+  {
+    "type": "Total time: ",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "build_file_word",
+    "named": true
+  },
+  {
+    "type": "copy",
+    "named": false
+  },
+  {
+    "type": "delete",
+    "named": false
+  },
+  {
+    "type": "echo",
+    "named": false
+  },
+  {
+    "type": "exec",
+    "named": false
+  },
+  {
+    "type": "jar",
+    "named": false
+  },
+  {
+    "type": "mkdir",
+    "named": false
+  },
+  {
+    "type": "move",
+    "named": false
+  },
+  {
+    "type": "unzip",
+    "named": false
+  },
+  {
+    "type": "zip",
+    "named": false
+  }
+]
